@@ -1,4 +1,4 @@
-# vlastny_indexer Usage Guide
+# VINF BORZIK
 
 ## 1. Starting the Services
 
