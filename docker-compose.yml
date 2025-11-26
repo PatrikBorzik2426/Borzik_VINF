@@ -1,0 +1,21 @@
+version: '3.8'
+services:
+  lucene_indexer:
+    build:
+      context: ./lucene_indexer
+      dockerfile: Dockerfile
+    container_name: lucene_indexer
+    ports:
+      - "8888:8888"
+    environment:
+      - PYTHONUNBUFFERED=1
+
+  vlastny_indexer:
+    build:
+      context: ./vlastny_indexer
+      dockerfile: Dockerfile
+    container_name: vlastny_indexer
+    ports:
+      - "8889:8888"
+    environment:
+      - PYTHONUNBUFFERED=1
