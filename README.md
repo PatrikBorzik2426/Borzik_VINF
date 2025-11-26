@@ -22,7 +22,7 @@ docker compose up -d
 ### Running Indexing and Search in the Notebook
 
 - Run the notebook cells to perform data loading, indexing, and search queries.
-- Ensure required data files (e.g., `data_games_merged_enriched_final.csv`) are present in `/workspace`.
+- Ensure required data files (e.g., `mydata.csv`) are present in `/workspace`.
 - You can modify and execute search queries directly in the notebook cells.
 
 ## 3. Accessing vlastny_indexer for Command-Line Querying
