@@ -2,7 +2,7 @@
 FROM coady/pylucene:latest
 
 # Install Jupyter Notebook and useful Python packages
-RUN pip install jupyter pandas numpy lupyne[graphql,rest]
+RUN pip install jupyter pandas numpy lupyne[graphql,rest] matplotlib
 
 # Set working directory
 WORKDIR /workspace

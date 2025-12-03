@@ -5,7 +5,7 @@
 From the `Borzik_VINF` dirňectory, start both indexer containers:
 
 ```bash
-docker compose up -d
+docker compose up --build -d
 ```
 
 ## 2. Accessing the Jupyter Notebook for lucene notebook implementation
